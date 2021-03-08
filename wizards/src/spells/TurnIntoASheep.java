@@ -1,4 +1,4 @@
-package RomanKukin_HW1.spells;
+package spells;
 
 public class TurnIntoASheep extends Spell implements Polymorphable{
 

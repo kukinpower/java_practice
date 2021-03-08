@@ -1,4 +1,4 @@
-package RomanKukin_HW1.spells;
+package spells;
 
 interface Polymorphable {
   void polymorph(String target);

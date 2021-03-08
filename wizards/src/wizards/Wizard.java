@@ -1,6 +1,6 @@
-package RomanKukin_HW1.wizards;
+package wizards;
 
-import RomanKukin_HW1.spells.Spell;
+import spells.Spell;
 
 public abstract class Wizard implements BroomstickFlyable, PotionMakeable, Comparable<Wizard> {
   protected final String name;

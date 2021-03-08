@@ -1,4 +1,4 @@
-package RomanKukin_HW1.wizards;
+package wizards;
 
 interface PotionMakeable {
   void makePotion(String potion);

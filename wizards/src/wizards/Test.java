@@ -1,11 +1,11 @@
-package RomanKukin_HW1.wizards;
+package wizards;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import RomanKukin_HW1.spells.Reparo;
-import RomanKukin_HW1.spells.TurnIntoASheep;
+import spells.Reparo;
+import spells.TurnIntoASheep;
 
 public class Test {
   public static void main(String[] args) {
