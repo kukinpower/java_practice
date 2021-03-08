@@ -46,7 +46,15 @@ public abstract class Wizard implements BroomstickFlyable, PotionMakeable, Compa
 
   @Override
   public int compareTo(Wizard o) {
+    if (this.profession == null && o == null) {
+      return 0;
+    }
+    if (o == null) {
+      return 1;
+    }
+    if (this.profession == null) {
+      return -1;
+    }
     return this.profession.compareTo(o.profession);
   }
-
 }
