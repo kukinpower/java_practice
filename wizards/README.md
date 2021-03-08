@@ -18,6 +18,6 @@ Interfaces:
 
 Class `Wizard` extends interfaces
 
-Class [Test](src/main/java/wizards/Test.java) tests whole hierarchy and all methods  
+Class [WizardTest](src/test/java/WizardTest.java) tests whole hierarchy and all methods  
 `ArrayList` collection `wizzards1` sorted by `natural ordering`  
 and `wizzards2` sorted by `Wizard` age  
