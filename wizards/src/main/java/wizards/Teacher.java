@@ -1,6 +1,6 @@
 package wizards;
 
-public class Teacher extends Wizard{
+public class Teacher extends Wizard {
 
   public Teacher(String name, int age) {
     super(name, age, "teacher");
@@ -8,6 +8,6 @@ public class Teacher extends Wizard{
 
   @Override
   public void performMainActivity() {
-    System.out.println("Teacher " + name + " is teaching the art of magic");
+    System.out.println(this.profession + " " + name + " is teaching the art of magic");
   }
 }

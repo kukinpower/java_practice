@@ -20,7 +20,7 @@ public abstract class Wizard implements BroomstickFlyable, PotionMakeable, Compa
 
   public void introduce() {
     System.out.println(name + ": \"Hello! My name is " + name +
-        ". I'm a " + profession + ". And I'm " + age + " years old.");
+        ". I'm a " + profession + ". And I'm " + age + " years old.\"");
   }
 
   public abstract void performMainActivity();
@@ -56,5 +56,17 @@ public abstract class Wizard implements BroomstickFlyable, PotionMakeable, Compa
       return -1;
     }
     return this.profession.compareTo(o.profession);
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public String getProfession() {
+    return profession;
+  }
+
+  public int getAge() {
+    return age;
   }
 }
